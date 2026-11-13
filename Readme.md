@@ -155,9 +155,8 @@ The lookup also returned HostGator and DomainControl name server entries. These 
 
 ### Evidence – Figure 1
 
-**Insert WHOIS screenshot below.**
 
-![Figure 1 – WHOIS Domain Registration Results](assets/whois.png)
+![Figure 1 – WHOIS Domain Registration Results](Whois.jpeg)
 
 ---
 
@@ -210,9 +209,8 @@ Technology fingerprinting is useful because it helps security professionals unde
 
 ### Evidence – Figure 2
 
-**Insert WhatWeb screenshot below.**
 
-![Figure 2 – WhatWeb Technology Fingerprinting](assets/whatweb.png)
+![Figure 2 – WhatWeb Technology Fingerprinting](Whatweb.jpeg)
 
 ---
 
@@ -252,9 +250,8 @@ The IP address obtained through Nslookup matched the IP address identified by Wh
 
 ### Evidence – Figure 3
 
-**Insert Nslookup screenshot below.**
 
-![Figure 3 – Nslookup DNS Resolution](assets/nslookup.png)
+![Figure 3 – Nslookup DNS Resolution](Nslookup.jpeg)
 
 ---
 
@@ -306,9 +303,8 @@ The actual cookie value was not reproduced in this report to avoid exposing pote
 
 ### Evidence – Figure 4
 
-**Insert Curl HTTP header screenshot below.**
 
-![Figure 4 – Curl HTTP Response Headers](assets/curl.png)
+![Figure 4 – Curl HTTP Response Headers](Curl.jpeg)
 
 ---
 
@@ -349,9 +345,8 @@ However, detecting a WAF does not confirm that the website is completely protect
 
 ### Evidence – Figure 5
 
-**Insert WAFW00F screenshot below.**
 
-![Figure 5 – WAFW00F Detection Results](assets/wafw00f.png)
+![Figure 5 – WAFW00F Detection Results](Wawoof.jpeg)
 
 ---
 
@@ -409,9 +404,8 @@ The DNS enumeration results provide useful information about the domain's infras
 
 ### Evidence – Figure 6
 
-**Insert DNSRecon screenshot below.**
 
-![Figure 6 – DNSRecon DNS Enumeration](assets/dnsrecon.png)
+![Figure 6 – DNSRecon DNS Enumeration](Dnsrecon.jpeg)
 
 ---
 
@@ -470,12 +464,6 @@ The IPv4 address and subnet mask were used to determine the appropriate local ne
 
 Identifying the correct subnet is important because scanning an incorrect network range may result in incomplete or unauthorized scanning activity.
 
-### Evidence – Figure 7
-
-**Insert Windows Command Prompt screenshot showing ipconfig results below.**
-
-![Figure 7 – Windows IP Configuration](assets/ipconfig.png)
-
 ---
 
 ## 6.3 ZENMAP HOST DISCOVERY SCAN
@@ -528,9 +516,8 @@ The results of this scan represent the devices that responded to the discovery a
 
 ### Evidence – Figure 8
 
-**Insert Zenmap scan results screenshot below.**
 
-![Figure 8 – Zenmap Host Discovery Results](assets/zenmap-scan.png)
+![Figure 8 – Zenmap Host Discovery Results](zenmap.jpeg)
 
 ---
 
@@ -567,9 +554,8 @@ The diagram represents the results of the host discovery scan and should not be 
 
 ### Evidence – Figure 9
 
-**Insert Zenmap Topology screenshot below.**
 
-![Figure 9 – Zenmap Network Topology](assets/zenmap-topology.png)
+![Figure 9 – Zenmap Network Topology](Nmap-topology.pdf)
 
 ### Exported Topology PDF
 
