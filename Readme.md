@@ -559,11 +559,10 @@ The diagram represents the results of the host discovery scan and should not be 
 
 ### Exported Topology PDF
 
-**Insert the exported topology PDF in the repository's evidence folder.**
 
 Suggested file location:
 
-`assets/zenmap-topology.pdf`
+[View or Download Network Topology PDF](Nmap-topology.pdf)
 
 ---
 
@@ -583,7 +582,7 @@ The following table summarizes the main observations from the domain footprintin
 | 8 | DNS Records | SOA, NS, A, MX, TXT and SRV records identified. | DNS information can reveal infrastructure details useful for security assessments. |
 | 9 | Local Network | Local network configuration identified using ipconfig. | Accurate network identification is necessary before scanning. |
 | 10 | Live Hosts | [Insert Zenmap host count]. | Identifies devices responding to network discovery probes. |
-| 11 | Network Topology | [Insert topology observation]. | Provides a visual overview of discovered network hosts. |
+| 11 | Network Topology |. | Provides a visual overview of discovered network hosts. |
 
 ### Risk Assessment Notes
 
