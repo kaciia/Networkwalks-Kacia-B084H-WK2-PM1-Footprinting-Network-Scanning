@@ -492,11 +492,6 @@ Zenmap was used to perform a network discovery scan on the authorized local netw
 - The network topology visualization illustrated the relationships between the discovered devices.
 - Device-specific information, including private IP addresses and MAC addresses, has been excluded from this report to protect network privacy.
 
-**Results and Analysis**
-
-The Zenmap scan demonstrated how network discovery tools can be used to identify active hosts and understand the general structure of a local network. The topology diagram provided a visual representation of the discovered network environment.
-
-The findings highlight the importance of network mapping as an initial step in network assessment and cybersecurity monitoring.
 
 **Evidence**
 
@@ -522,22 +517,11 @@ The results of this scan represent the devices that responded to the discovery a
 
 ## 6.4 NETWORK TOPOLOGY MAPPING
 
-### Objective
 
 The Zenmap Topology feature was used to generate a graphical representation of the discovered network hosts.
 
 The topology view provides a visual overview of the scanning computer and the devices identified during the network discovery process.
 
-### Topology Findings
-
-| Attribute | Result |
-|---|---|
-| Network Scanned | [Insert confirmed subnet] |
-| Total Hosts Displayed | [Insert number] |
-| Scanning Computer | [Insert scanning computer IP or hostname] |
-| Other Discovered Devices | [Insert discovered IP addresses] |
-| Topology Export Format | PDF |
-| Export Status | [Insert status after saving] |
 
 ### Analysis
 
@@ -555,8 +539,6 @@ The diagram represents the results of the host discovery scan and should not be 
 
 
 ![Figure 9 – Zenmap Network Topology](Nmap-topology.pdf)
-
-### Exported Topology PDF
 
 
 Suggested file location:
