@@ -478,30 +478,29 @@ Zenmap was used to discover active devices connected to the local network.
 
 The scan was configured to identify hosts that responded to network discovery probes.
 
-### Scan Information
+### Zenmap Network Discovery – Findings and Results
 
-| Attribute | Result |
-|---|---|
-| Scanning Tool | Zenmap |
-| Scan Type | Host Discovery / Ping Scan |
-| Target Network | [Insert your confirmed subnet] |
-| Scan Profile | [Insert selected Zenmap profile] |
-| Scan Command | [Insert actual command displayed by Zenmap] |
-| Scan Date | [Insert date] |
+**Network Discovery**
 
-### Scan Results
+Zenmap was used to perform a network discovery scan on the authorized local network. The scan helped identify active devices responding to network discovery requests.
 
-| Attribute | Result |
-|---|---|
-| Total Live Hosts Discovered | [Insert number] |
-| Host 1 IP Address | [Insert IP address] |
-| Host 1 MAC Address | [Insert MAC address, if available] |
-| Host 2 IP Address | [Insert IP address] |
-| Host 2 MAC Address | [Insert MAC address, if available] |
-| Host 3 IP Address | [Insert IP address] |
-| Host 3 MAC Address | [Insert MAC address, if available] |
-| Additional Hosts | [Add rows if required] |
+**Findings**
 
+- The scan successfully completed and provided an overview of responsive devices on the local network.
+- Multiple network devices were identified during the discovery process.
+- The scan results provided information about the availability and connectivity of devices.
+- The network topology visualization illustrated the relationships between the discovered devices.
+- Device-specific information, including private IP addresses and MAC addresses, has been excluded from this report to protect network privacy.
+
+**Results and Analysis**
+
+The Zenmap scan demonstrated how network discovery tools can be used to identify active hosts and understand the general structure of a local network. The topology diagram provided a visual representation of the discovered network environment.
+
+The findings highlight the importance of network mapping as an initial step in network assessment and cybersecurity monitoring.
+
+**Evidence**
+
+The Zenmap scan screenshot and exported network topology PDF are included in this repository as supporting evidence. Sensitive network identifiers have been omitted from the publicly shared documentation.
 ### Analysis
 
 The Zenmap scan was performed to identify active devices within the selected local network range.
