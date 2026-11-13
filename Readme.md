@@ -446,16 +446,6 @@ The information required included:
 - Default gateway.
 - Active network adapter.
 
-### Findings
-
-| Attribute | Result |
-|---|---|
-| Active Network Adapter | [Insert adapter name] |
-| IPv4 Address | [Insert your IPv4 address] |
-| Subnet Mask | [Insert subnet mask] |
-| Default Gateway | [Insert default gateway] |
-| Network Subnet | [Insert confirmed subnet] |
-
 ### Analysis
 
 The `ipconfig` command was used to identify the computer's network configuration before performing the Zenmap scan.
@@ -531,17 +521,9 @@ The diagram helped visualize the relationship between the scanning computer and 
 
 This type of visualization is useful because it makes network discovery results easier to interpret than a list of IP addresses alone.
 
-The topology diagram was exported to PDF format for documentation and evidence.
-
 The diagram represents the results of the host discovery scan and should not be interpreted as a complete physical network diagram or a detailed map of every network connection.
 
 ### Evidence – Figure 9
-
-
-![Figure 9 – Zenmap Network Topology](Nmap-topology.pdf)
-
-
-Suggested file location:
 
 [View or Download Network Topology PDF](Nmap-topology.pdf)
 
